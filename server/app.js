@@ -1,3 +1,8 @@
+
+/*
+ will be the entrypoint for your Node.js web server code and utilizes express, the ubiquitous JavaScript web application framework. Express is an MVC framework. In Express, the view is considered to be the Express server's response. Code for the models and code for the controllers exist within their own directory, mentioned below. For more information on how Express utilizes MVC, check out the the Getting started section of the Express docs, but remember you're under extreme time pressure for this sprint, and, you'll be getting more Express content in upcoming sprints
+*/
+
 var express = require('express');
 var db = require('./db');
 
